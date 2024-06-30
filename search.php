@@ -7,7 +7,7 @@ require './config.php';
     $current_page_url = $protocol . "://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
     
     
-$status = 'لطفا نام کانفینگ خود را وارد بکنید.';
+$status = 'لطفا نام اشتراک خود را وارد کنید.';
 if (isset($_GET['username'])) {
    $client_info =  client_info($_GET['username']);
 } else if (isset($_GET['uuid'])) {
@@ -141,13 +141,13 @@ if (strlen($crisp) >= 20) $crisp_script = "<script type='text/javascript'>window
    </div>
    <div class="container">
     <div class="d-head " style="justify-content: space-between">
-        <p class="p-head">لینک کوتاه این کانفیگ</p>
+        <p class="p-head">لینک کوتاه این اشتراک</p>
       </div>
       <hr style="border-radius: 50px; height: 2px; background-color: #edede9; width: 100%" ;>
 
       <div class="search-wrapper cf">
         <input type="text"  value="<?php echo $current_page_url; ?>" id="myInput" readonly style="box-shadow: none">
-        <button type="submit" onclick="myFunction()">کپی لینک</button>
+        <button type="submit" onclick="myFunction()">کپی لینک اشتراک</button>
     </div>
 
     <div class="d-head " style="justify-content: space-between">
