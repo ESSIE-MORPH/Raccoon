@@ -65,7 +65,7 @@ if (strlen($crisp) >= 20) $crisp_script = "<script type='text/javascript'>window
             <a href="?lang=fa">🇮🇷</a>
             <a href="?lang=en">🇺🇸</a>
           </p>
-          <p class="text-size-16 mb-0">Coded By <a href="https://github.com/MrAminiNezhad">MrAminiNezhad</a> © 2023. All Rights Reserved.</p>
+          <p class="text-size-16 mb-0">Coded By <a href="https://github.com/ESSIE-MORPH">ESSIE-MORPH</a> © 2024. All Rights Reserved.</p>
         </div>
       </div>
     </div>
