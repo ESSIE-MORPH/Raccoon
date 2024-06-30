@@ -197,7 +197,7 @@ function client_info($username = null, $uuid = null)
 
 
 
-    $config_status = $info['status'] == true ? 'فعال 🟢' : 'غیر فعال 🔴';
+    $config_status = $info['status'] == true ? 'فعال 🟢' : 'غیرفعال 🔴';
 
     if ($info['total_traffic'] ==  0) {
         $total = "♾️";
